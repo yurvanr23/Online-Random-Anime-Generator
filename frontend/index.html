@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Anime Generator</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <main class="container">
+
+        <header class="header">
+            <h1>🎲 Random Anime Generator</h1>
+            <p>Discover your next anime to watch</p>
+        </header>
+
+        <section class="card">
+            <div class="image-container">
+                <img id="image_url" src="assets/placeholder.png" alt="Anime Cover">
+            </div>
+
+            <div class="content">
+                <h2 id="title">Click generate</h2>
+
+                <div class="meta">
+                    <span id="score">⭐ --</span>
+                    <span id="episodes">🎬 -- eps</span>
+                </div>
+
+                <p id="genres" class="genres">Genres will appear here</p>
+
+                <p id="synopsis" class="synopsis">
+                    Anime synopsis will appear here.
+                </p>
+
+                <button id="generate">Generate Random Anime</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
