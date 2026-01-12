@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Anime Generator</title>
 
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -17,9 +15,20 @@
         <header class="header">
             <h1>🎲 Random Anime Generator</h1>
             <p>Discover your next anime to watch</p>
+
+            <!-- Dark mode toggle -->
+            <button id="themeToggle" class="theme-toggle">🌙</button>
         </header>
 
-        <section class="card">
+        <section class="card fade">
+
+            <!-- Skeleton Loader -->
+            <div id="loader" class="skeleton hidden">
+                <div class="skeleton-img"></div>
+                <div class="skeleton-text"></div>
+                <div class="skeleton-text short"></div>
+            </div>
+
             <div class="image-container">
                 <img id="image_url" src="assets/placeholder.png" alt="Anime Cover">
             </div>
@@ -32,14 +41,16 @@
                     <span id="episodes">🎬 -- eps</span>
                 </div>
 
-                <p id="genres" class="genres">Genres will appear here</p>
+                <!-- Genre pills -->
+                <div id="genres" class="genre-pills"></div>
 
-                <p id="synopsis" class="synopsis">
-                    Anime synopsis will appear here.
-                </p>
+                <div class="synopsis-box">
+                    <p id="synopsis">Anime synopsis will appear here.</p>
+                </div>
 
-                <button id="generate">Generate Random Anime</button>
+                <button id="generate">Generate</button>
             </div>
+
         </section>
 
     </main>
