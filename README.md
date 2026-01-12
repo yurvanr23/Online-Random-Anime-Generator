@@ -16,7 +16,12 @@ Application of advanced analytics and predictive modelling to uncover outlier NB
 A modern web application that generates a random anime recommendation with detailed information, including cover image, synopsis, genres, and score.<br>
 </p>
 
-<p>Built with a FastAPI backend and a clean HTML, CSS, and JavaScript frontend.</p>
+<p>Built with a FastAPI backend and a clean HTML, CSS, and JavaScript frontend.</p><br>
+
+<p align="center">View Live Demo: <a href="https://yurvanr23-random-anime-generator.vercel.app/" target="_blank">here</a></p>
+<p align="center">
+  <img width="771" height="440" alt="image" src="https://github.com/user-attachments/assets/60776b34-d7c7-47f4-add5-a9f59e7b16f0" />
+</p>
 
 <hr>
 
@@ -49,13 +54,6 @@ A modern web application that generates a random anime recommendation with detai
 </ul>
 
 <hr>
-
-<h2 align="center">🚀 Getting Started</h2>
-<p>Below is a screenshot of how the UI looks:</p>
-<p align="center">
-  <img width="771" height="440" alt="image" src="https://github.com/user-attachments/assets/60776b34-d7c7-47f4-add5-a9f59e7b16f0" />
-
-</p>
 
 <h2 align="center">👨‍💻 Author</h2>
 <p>
