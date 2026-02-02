@@ -17,7 +17,9 @@ document.getElementById("generate").addEventListener("click", async () => {
 
         loader.classList.remove("hidden");
 
-        const response = await fetch("http://127.0.0.1:8000/api/anime/random");
+        const API_URL = "https://random-anime-generator.onrender.com/api/anime/random";
+        const response = await fetch(API_URL);
+        //const response = await fetch("http://127.0.0.1:8000/");
         //const anime = await response.json();
         const anime = await fetchRandomAnime();
 
