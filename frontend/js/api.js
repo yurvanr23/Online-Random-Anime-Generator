@@ -1,5 +1,6 @@
-const API_URL = "http://127.0.0.1:8000/api/anime/random";
-
+//const API_URL = "http://127.0.0.1:8000/api/anime/random";
+const API_URL = "https://random-anime-generator.onrender.com/api/anime/random";
+    
 export async function fetchRandomAnime() { 
     const response = await fetch(API_URL);
     return response.json();
